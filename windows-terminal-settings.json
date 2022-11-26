@@ -4,20 +4,20 @@
     "actions": 
     [
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -31,70 +31,63 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{10a96ef2-5277-4386-84e9-018eb7ba7e23}",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "profiles": 
     {
         "defaults": {},
         "list": 
         [
             {
+                "colorScheme": "Ubuntu-20.04-ColorScheme",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "Windows PowerShell",
+                "opacity": 70,
+                "useAcrylic": true
             },
             {
+                "colorScheme": "Ubuntu-20.04-ColorScheme",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Command Prompt"
+                "name": "Command Prompt",
+                "opacity": 70,
+                "useAcrylic": true
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "colorScheme": "Ubuntu",
+                "colorScheme": "Ubuntu-20.04-ColorScheme",
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
                 "cursorShape": "filledBox",
-                "font": 
-                {
-                    "face": "Cascadia Code"
-                },
                 "guid": "{10a96ef2-5277-4386-84e9-018eb7ba7e23}",
                 "hidden": false,
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-                "name": "Git Bash"
+                "name": "Git Bash",
+                "opacity": 70,
+                "useAcrylic": true
+            },
+            {
+                "font": 
+                {
+                    "size": 12
+                },
+                "guid": "{59b72ad2-09f7-55ec-af87-65d062af8472}",
+                "hidden": false,
+                "name": "Ubuntu 20.04.5 LTS",
+                "opacity": 70,
+                "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": true,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
     "schemes": 
     [
-        {
-            "background": "#2A1F1D",
-            "black": "#573D26",
-            "blue": "#5A86AD",
-            "brightBlack": "#9B6C4A",
-            "brightBlue": "#B8D3ED",
-            "brightCyan": "#93CFD7",
-            "brightGreen": "#95D8BA",
-            "brightPurple": "#D19ECB",
-            "brightRed": "#E84627",
-            "brightWhite": "#FFF9D5",
-            "brightYellow": "#D0D150",
-            "cursorColor": "#573D26",
-            "cyan": "#74A6AD",
-            "foreground": "#E0DBB7",
-            "green": "#6BA18A",
-            "name": "BirdsOfParadise",
-            "purple": "#AC80A6",
-            "red": "#BE2D26",
-            "selectionBackground": "#563C27",
-            "white": "#E0DBB7",
-            "yellow": "#E99D2A"
-        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -281,26 +274,26 @@
         },
         {
             "background": "#300A24",
-            "black": "#2E3436",
-            "blue": "#3465A4",
-            "brightBlack": "#555753",
-            "brightBlue": "#729FCF",
-            "brightCyan": "#34E2E2",
-            "brightGreen": "#8AE234",
-            "brightPurple": "#AD7FA8",
-            "brightRed": "#EF2929",
-            "brightWhite": "#EEEEEC",
-            "brightYellow": "#FCE94F",
-            "cursorColor": "#BBBBBB",
-            "cyan": "#06989A",
-            "foreground": "#EEEEEC",
-            "green": "#4E9A06",
-            "name": "Ubuntu",
-            "purple": "#75507B",
-            "red": "#CC0000",
-            "selectionBackground": "#B5D5FF",
-            "white": "#D3D7CF",
-            "yellow": "#C4A000"
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-20.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
         },
         {
             "background": "#000000",
